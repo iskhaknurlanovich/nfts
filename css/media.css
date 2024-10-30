@@ -508,6 +508,9 @@
     display: flex;
     gap: 25px;
   }
+  .main-browse {
+    gap: 35px;
+  }
   .machroom {
     align-items: center;
     padding-top: 100px;
@@ -548,6 +551,15 @@
   }
   .main-browse {
     gap: 20px;
+    .boxes {
+      width: 155px;
+    }
+  }
+  .blur {
+    img {
+      top: 30px;
+      left: 30px;
+    }
   }
   .main-title h1 {
     font-size: 32px;
@@ -590,8 +602,10 @@
   .blur {
     img {
       left: 40px;
+      top: 30px;
     }
   }
+
   .NFTs-text {
     align-items: center;
     display: flex;
@@ -721,13 +735,16 @@
     width: 135px;
   }
   .main-browse {
-    gap: 15px;
+    .boxes {
+      width: 210px;
+    }
   }
+
   .blur {
     img {
-      left: 20%;
-      top: 17%;
-      max-width: 80px;
+      left: 25%;
+      top: 23%;
+      max-width: 100px;
     }
   }
   .NFTs .box,
