@@ -174,7 +174,8 @@ nav a {
   align-items: center;
   gap: 10px;
   img {
-    width: 24px;
+    width: 100%;
+    max-width: 40px;
   }
 }
 .avatarka h2 {
