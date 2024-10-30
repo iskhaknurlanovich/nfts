@@ -1,0 +1,754 @@
+@media (max-width: 1200px) {
+  .container {
+    max-width: 980px;
+  }
+  #header {
+    .container {
+      max-width: 1050px;
+    }
+  }
+  .trending .box {
+    width: 313px;
+  }
+  .trending .box2 {
+    width: 313px;
+  }
+  .main {
+    align-items: center;
+  }
+  .main-title {
+    h1 {
+      font-size: clamp(20px, 1.193rem + 3.41vw, 55px);
+    }
+    p {
+      width: 80%;
+      font-size: clamp(0.938rem, 0.778rem + 0.8vw, 20px);
+    }
+  }
+  .auction h1 {
+    font-size: 25px;
+  }
+  .main button {
+    width: 210px;
+    height: 55px;
+  }
+  .main-image {
+    max-width: 460px;
+  }
+  .creators .box {
+    width: 192px;
+  }
+  .NFTs {
+    .box {
+      width: 315px;
+      height: 465px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .works .box {
+    max-width: 250px;
+  }
+}
+@media (max-width: 1080px) {
+  .container {
+    max-width: 900px;
+  }
+  #header {
+    display: none;
+  }
+  .burger {
+    display: flex;
+  }
+  .main {
+    padding-top: 70px;
+  }
+  .trending .box {
+    width: 285px;
+    height: 485px;
+  }
+  .trending .box2 {
+    width: 285px;
+    height: 485px;
+  }
+  .mini-box {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .creators {
+    gap: 25px;
+  }
+  .creators .box {
+    width: 175px;
+    height: 205px;
+  }
+  .creators .box p span {
+    font-size: 13px;
+  }
+  .boxes {
+    width: 190px;
+  }
+  .main-browse {
+    gap: 40px;
+  }
+  .NFTs {
+    .box {
+      width: 280px;
+      height: 405px;
+    }
+    .box2 {
+      width: 280px;
+      height: 405px;
+    }
+  }
+  .works .box {
+    max-width: 220px;
+  }
+  .subscribe-box {
+    width: 100%;
+  }
+  .works .box p {
+    width: 200px;
+    font-size: 15px;
+  }
+
+  .NFTs .box img {
+    width: 100%;
+    height: 62%;
+  }
+  .NFTs .box2 img {
+    width: 100%;
+    height: 62%;
+  }
+  .input {
+    input {
+      width: 80%;
+      max-width: 100%;
+    }
+  }
+}
+@media (max-width: 950px) {
+  .container {
+    max-width: 800px;
+  }
+  .burger {
+    width: 55px;
+    height: 55px;
+    ion-icon {
+      width: 40px;
+    }
+  }
+  .auction {
+    display: none;
+  }
+  .trending .box {
+    width: 250px;
+  }
+  .trending .box2 {
+    width: 250px;
+  }
+  .works .box {
+    padding: 20px 15px;
+  }
+  .trending .box .box-btm,
+  .trending .box2 .box-btm {
+    gap: 10px;
+  }
+  .subscribe-box {
+    width: 100%;
+    max-width: 700px;
+    img {
+      max-width: 350px;
+    }
+  }
+  .subscribe-text {
+    gap: 35px;
+    h1 {
+      font-size: 35px;
+    }
+    p {
+      font-size: 21px;
+      width: 100%;
+    }
+  }
+  .input {
+    width: 100%;
+    max-width: 300px;
+    button {
+      width: 130px;
+    }
+  }
+  .trending .box .box-btm button,
+  .trending .box2 .box-btm button {
+    width: 80px;
+    height: 100%;
+    font-size: 18px;
+  }
+  .trending .box .box-btm img,
+  .trending .box2 .box-btm img {
+    width: 80px;
+    height: 100%;
+  }
+  .creators {
+    gap: 45px;
+  }
+  .creators .box {
+    width: 200px;
+    height: 230px;
+    padding: 25px 15px;
+    gap: 15px;
+    h1 {
+      font-size: 22px;
+    }
+    p {
+      font-size: 16px;
+      span {
+        font-size: 16px;
+      }
+    }
+  }
+  .main-browse {
+    gap: 60px;
+  }
+  .machroom-text h1 {
+    font-size: 45px;
+  }
+  .NFTs .box {
+    width: 375px;
+    height: 500px;
+    h1 {
+      font-size: 22px;
+      padding: 0;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+    }
+    .aftor {
+      padding: 0;
+      h2 {
+        font-size: 16px;
+      }
+    }
+  }
+  .NFTs .box2 {
+    display: none;
+  }
+  .info {
+    padding-inline: 0px;
+  }
+  .NFTs-btm {
+    padding: 15px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+@media (max-width: 900px) {
+  .container {
+    max-width: 750px;
+  }
+  .main {
+    p {
+      font-size: 17px;
+    }
+  }
+  .auctions h1 {
+    font-size: 35px;
+  }
+  .auctions ul {
+    display: flex;
+    gap: 47px;
+  }
+  .main-title h1 {
+    font-size: 40px;
+  }
+  .trending .box2 {
+    display: none;
+  }
+  .trending .box {
+    width: 360px;
+    height: 525px;
+    h1 {
+      font-size: 20px;
+    }
+    .box-btm {
+      img {
+        width: 100px;
+        height: 100px;
+      }
+      button {
+        width: 100px;
+        height: 100px;
+        font-size: 22px;
+      }
+    }
+  }
+  .creators {
+    display: none;
+  }
+  .creator {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+  .creator .box {
+    width: 280px;
+    height: 60px;
+    padding: 25px 15px;
+    border-radius: 20px;
+    background: hsla(0, 0%, 23%, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    position: relative;
+    img {
+      width: 100%;
+      max-width: 70px;
+    }
+    h1 {
+      font-size: 22px;
+      font-weight: 600;
+      padding-bottom: 10px;
+    }
+    p {
+      font-size: 16px;
+      font-weight: 400;
+      color: hsla(60, 0%, 52%, 1);
+      span {
+        font-size: 16px;
+        font-weight: 400;
+        color: hsla(0, 0%, 100%, 1);
+        font-family: Space Mono;
+        padding: 0 7px;
+      }
+    }
+    h3 {
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      background: hsla(0, 0%, 17%, 1);
+      color: hsla(60, 0%, 52%, 1);
+      font-size: 16px;
+      font-weight: 400;
+      font-family: Space Mono;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 13px;
+      left: 13px;
+    }
+  }
+  .machroom-img {
+    max-height: 870px;
+    top: -100px;
+  }
+  .subscribe-box {
+    max-width: 650px;
+  }
+  .subscribe-text {
+    gap: 10px;
+    h1 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+  .input {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    padding-top: 45px;
+    input {
+      width: 100%;
+      height: 35px;
+      max-width: 92%;
+      border-radius: 15px;
+    }
+    .btn-1 {
+      display: none;
+    }
+  }
+  .works {
+    display: none;
+  }
+  .works2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    gap: 25px;
+    .box {
+      width: 100%;
+      max-width: 500px;
+      background: rgb(59, 59, 59);
+      border-radius: 20px;
+      padding: 20px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 30px;
+      text-align: center;
+      gap: 30px;
+      img {
+        max-width: 250px;
+        width: 100%;
+      }
+      h1 {
+        font-size: 22px;
+        text-align: start;
+      }
+      p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: start;
+      }
+      .works-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 10px;
+      }
+    }
+  }
+}
+@media (max-width: 830px) {
+  .trending .box {
+    width: 100%;
+  }
+  .trending .box .box-btm {
+    align-items: center;
+    img {
+      width: 92px;
+    }
+    button {
+      width: 92px;
+      height: 92px;
+    }
+  }
+  .auctions {
+    width: 100%;
+    max-width: 243px;
+  }
+  #machroom {
+    height: 544px;
+  }
+  .works2 .box p {
+    font-size: 10px;
+  }
+  .auctions ul {
+    display: flex;
+    gap: 35px;
+  }
+  .auctions h1 {
+    font-size: 31px;
+  }
+  .works2 .box h1 {
+    font-size: 18px;
+  }
+  .works2 .box {
+    width: 80%;
+  }
+  .subscribe-box {
+    width: 87%;
+    max-width: 643px;
+  }
+  .NFTs .box {
+    width: 358px;
+    height: 500px;
+    img {
+      width: 100%;
+      height: 321px;
+    }
+  }
+  .input {
+    input {
+      width: 92%;
+    }
+  }
+  .trending .box {
+    width: 350px;
+  }
+  .creators-title button {
+    width: 200px;
+  }
+  .NFTs .box {
+    width: 350px;
+    height: 470px;
+  }
+  .machroom-text h1 {
+    font-size: 37px;
+  }
+}
+@media (max-width: 770px) {
+  .footer {
+    align-items: flex-start;
+    gap: 60px;
+    flex-direction: column;
+  }
+  .NFTs {
+    justify-self: center;
+  }
+
+  .subscribe-box {
+    flex-direction: column;
+    max-height: 100%;
+  }
+}
+@media (max-width: 640px) {
+  .auctions h1 {
+    font-size: 28px;
+  }
+  .auctions ul {
+    display: flex;
+    gap: 25px;
+  }
+  .machroom {
+    align-items: center;
+    padding-top: 100px;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .auctions {
+    padding: 10px 25px;
+    opacity: 0.7;
+    max-width: 76%;
+  }
+  .machroom-text button {
+    width: 100%;
+    font-size: 20px;
+  }
+  .machroom-text button {
+    width: 100%;
+    font-size: 17px;
+  }
+}
+@media (max-width: 500px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    button {
+      display: none;
+    }
+    .main-title {
+      h1 {
+        width: 100%;
+      }
+      p {
+        width: 100%;
+        font-size: 16px;
+      }
+    }
+  }
+  .main-title h1 {
+    font-size: 32px;
+  }
+  .trending {
+    justify-content: center;
+    .box {
+      height: 100%;
+    }
+  }
+  .trending .box .box-btm {
+    img {
+      width: 100px;
+    }
+  }
+  .trending .box .box-btm {
+    button {
+      width: 100px;
+      height: 100px;
+    }
+  }
+}
+@media (max-width: 430px) {
+  html {
+    max-width: 430px;
+  }
+  .works2 .box {
+    width: 83%;
+  }
+  .blur {
+    img {
+      left: 20%;
+    }
+  }
+  .NFTs-text {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    h1 {
+      font-size: 28px;
+    }
+    p {
+      font-size: 15px;
+    }
+  }
+  .NFTs {
+    justify-content: center;
+  }
+  .NFTs-title {
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .NFTs .box2 {
+    display: flex;
+    width: 355px;
+    height: 475px;
+    h1 {
+      font-size: 22px;
+      padding: 0;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+    }
+    .aftor {
+      padding: 0;
+      h2 {
+        font-size: 16px;
+      }
+    }
+  }
+  .machroom-img {
+    width: 102%;
+    height: 121%;
+    top: -50px;
+    left: -10px;
+    right: 0;
+  }
+  #machroom {
+    height: 500px;
+  }
+  .subscribe-box {
+    max-width: 276px;
+    width: 90%;
+    max-height: 430px;
+    height: 100%;
+    background: hsla(0, 0%, 23%, 1);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    position: relative;
+    gap: 30px;
+    flex-direction: column;
+  }
+  .boxes {
+    width: 160px;
+  }
+  .main-browse {
+    gap: 20px;
+  }
+  .creators-title button {
+    display: none;
+  }
+  .last-section {
+    display: flex;
+    justify-content: center;
+  }
+  .trending {
+    justify-content: center;
+    gap: 55px;
+  }
+  .subscribe-box {
+    max-width: 100%;
+    max-height: 100%;
+    background: none;
+    border-radius: 0;
+    padding: 0 0 50px;
+  }
+  .input {
+    width: 100%;
+    padding-top: 20px;
+    input {
+      width: 94%;
+      height: 50px;
+    }
+    .btn-2 {
+      display: flex;
+      width: 100%;
+      max-width: 341px;
+      height: 50px;
+      font-size: 22px;
+      font-weight: 600;
+    }
+  }
+}
+@media (max-width: 380px) {
+  .works {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .browse-title h1 {
+    font-size: 26px;
+  }
+  .trending .box .box-btm {
+    align-items: center;
+    img {
+      width: 89px;
+    }
+    button {
+      width: 89px;
+      height: 89px;
+    }
+  }
+  .works .box h1 {
+    font-size: 23px;
+  }
+  .works2 {
+    display: none;
+  }
+  .boxes {
+    width: 135px;
+  }
+  .main-browse {
+    gap: 15px;
+  }
+  .blur {
+    img {
+      left: 20%;
+      top: 17%;
+      max-width: 80px;
+    }
+  }
+  .NFTs .box,
+  .NFTs .box2 {
+    width: 295px;
+    height: 425px;
+  }
+  .burger {
+    width: 50px;
+    height: 50px;
+    top: 20px;
+    right: 20px;
+  }
+  #main {
+    padding: 20px 0 100px 0;
+  }
+  .works2 .box {
+    width: 83%;
+  }
+  .input input {
+    width: 93%;
+  }
+}
+@media (max-width: 350px) {
+  .footer {
+    padding: 0;
+  }
+
+  .trending .box {
+    width: 100%;
+  }
+}
