@@ -582,6 +582,10 @@
       max-width: 370px;
       width: 100%;
     }
+    .avatarka img {
+      width: 100%;
+      max-width: 40px;
+    }
   }
   .blur {
     img {
