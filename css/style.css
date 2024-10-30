@@ -416,7 +416,7 @@ nav a {
     width: 100%;
     max-width: 100px;
     position: absolute;
-    top: 20%;
+    top: 50px;
     left: 25%;
   }
 }

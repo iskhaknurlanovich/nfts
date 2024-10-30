@@ -90,9 +90,7 @@
   .boxes {
     width: 190px;
   }
-  .main-browse {
-    gap: 40px;
-  }
+
   .NFTs {
     .box {
       width: 280px;
@@ -548,6 +546,9 @@
       }
     }
   }
+  .main-browse {
+    gap: 20px;
+  }
   .main-title h1 {
     font-size: 32px;
   }
@@ -576,9 +577,15 @@
   .works2 .box {
     width: 83%;
   }
+  .main-image {
+    img {
+      max-width: 370px;
+      width: 100%;
+    }
+  }
   .blur {
     img {
-      left: 20%;
+      left: 40px;
     }
   }
   .NFTs-text {
@@ -646,9 +653,7 @@
   .boxes {
     width: 160px;
   }
-  .main-browse {
-    gap: 20px;
-  }
+
   .creators-title button {
     display: none;
   }
