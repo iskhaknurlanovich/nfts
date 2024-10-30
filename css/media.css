@@ -600,12 +600,12 @@
     }
   }
   .blur {
+    backdrop-filter: blur(7px);
     img {
       left: 30px;
       top: 30px;
     }
   }
-
   .NFTs-text {
     align-items: center;
     display: flex;
